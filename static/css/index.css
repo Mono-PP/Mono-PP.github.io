@@ -120,6 +120,11 @@ body {
   padding: 20px;
   font-size: 0;
 }
+.results-carousel .item img {
+  width: 100%; /* Ensures the image takes up the full width of its container */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: cover; /* Ensures the image covers the container without stretching */
+}
 
 .results-carousel video {
   margin: 0;
